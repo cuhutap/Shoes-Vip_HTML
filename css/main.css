@@ -1,0 +1,79 @@
+section{
+	position: relative;
+}
+.All_Sh {
+    border-width: 1px;
+    background-color: #f0f0f0;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #e3e3e3;
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+.All_Sh a img{
+	margin: 7px;
+}
+.promo_ref a img{
+	margin: 3px;
+}
+.slider{
+	padding: 20px 0 10px 0;
+	width: 960px;
+	position: relative;
+	float: left;
+}
+.jcarousel{
+	overflow: hidden;
+}
+.jcarousel ul{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 3000px;
+}
+.jcarousel ul li{
+	float: left;
+	display: inline;
+}
+.Jcarousel_prev img{
+	opacity: 0.3;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);	
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	
+}
+.Jcarousel_prev {
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 210px;
+}
+.Jcarousel_next{
+	position: absolute;
+	z-index: 2;
+	left: 925px;
+	top: 210px;
+}
+.Jcarousel_next img{
+	opacity: 0.3;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.Jcarousel_next img:hover {
+	opacity: 1;
+}
+.Jcarousel_prev img:hover {
+	opacity: 1;
+}
+
